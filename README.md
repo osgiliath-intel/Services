@@ -162,13 +162,13 @@ From first contact to a counted result: find and research, CRM, ads, social chan
 | Models | Anthropic API; OpenRouter (one key to many models, with a spending cap) |
 | Workflows | n8n |
 | Traces, scores and cost | Langfuse |
-| Data | Palantir Foundry; your own exports and APIs |
+| Data | Your own exports and APIs |
 | Code and checks | GitHub, GitHub Actions, Python, Node.js, Playwright |
 | Hosting | Cloudflare, DigitalOcean |
 | Alerts | ntfy (phone alerts) |
 | Images and video | Higgsfield, Blender |
 
-We connect to the systems you already run, named by type on our site: CRM, orders, spreadsheets, accounts, bookings.
+We connect to the systems you already run, named by type on our site: CRM, orders, spreadsheets, accounts, bookings. We also work with Palantir Foundry where a business runs it.
 
 ## How we run our own business
 
