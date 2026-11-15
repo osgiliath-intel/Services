@@ -9,6 +9,8 @@
   <img alt="Based in the UK" src="https://img.shields.io/badge/based%20in-UK-5c677b">
 </p>
 
+<p align="center"><a href="#see-it-running">See it running</a> · <a href="#several-models-one-task">Several models</a> · <a href="#your-business-mapped">Business maps</a> · <a href="#department-by-department">Departments</a> · <a href="#services">Services</a> · <a href="examples/README.md">Example runs</a></p>
+
 This repository is our shop window. It explains what we build, how a run flows through a business, and where to start. It holds no client work and no client data: every example is made up and says so.
 
 ## Quick start
@@ -65,8 +67,8 @@ Services by department (marketing, sales, finance, people, technology and more):
 One department's run, played on the owner's screen. Each step goes to whatever suits it: an automation, fixed rules, an agent on a small or a stronger model, or a person. It stops for a person's yes, and every step lands on the trace.
 
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/screen-research-dark.jpg">
-  <img src="assets/ui/screen-research-light.jpg" alt="The owner screen playing a made-up research run: six steps, each with its software, its kind of model and what the trace keeps, ending with a person reading the brief." width="820">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/run-dark.gif">
+  <img src="assets/ui/run-light.gif" alt="Moving picture. The owner screen playing a made-up research run: six steps, each with its software, its kind of model and what the trace keeps, ending with a person reading the brief." width="820">
 </picture></p>
 
 <sub>Made-up data. More runs (a campaign, engineering, something happening in the system): [examples](examples/README.md).</sub>
