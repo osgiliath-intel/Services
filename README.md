@@ -9,7 +9,7 @@
   <img alt="Based in the UK" src="https://img.shields.io/badge/based%20in-UK-5c677b">
 </p>
 
-<p align="center"><a href="#see-it-running">See it running</a> · <a href="#several-models-one-task">Several models</a> · <a href="#your-business-mapped">Business maps</a> · <a href="#department-by-department">Departments</a> · <a href="#services">Services</a> · <a href="examples/README.md">Example runs</a></p>
+<p align="center"><a href="#see-it-running">See it running</a> · <a href="#several-models-one-task">Several models</a> · <a href="#your-business-mapped">Business maps</a> · <a href="#department-by-department">Departments</a> · <a href="#how-we-run-our-own-business">How we run</a> · <a href="#services">Services</a> · <a href="examples/README.md">Example runs</a></p>
 
 This repository is our shop window. It explains what we build, how a run flows through a business, and where to start. It holds no client work and no client data: every example is made up and says so.
 
@@ -29,6 +29,13 @@ Each step is scoped and quoted on its own. We never sell a plan to modernise the
 </picture></p>
 
 Six layers, in order. The two marked steps are where a person decides. Work loops back for review, and nothing is automated until its data can be trusted.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/layers-dark.jpg">
+  <img src="assets/ui/layers-light.jpg" alt="A made-up business drawn in five layers: the tools it already uses, one checked model of its departments, agents and rules, the actions that wait for a yes, and the screens its people use." width="820">
+</picture></p>
+
+The same shape, drawn as one made-up business: the tools it already uses at the bottom, one checked model of its departments, the agents and rules that do the work, the actions that wait for a yes, and the screens its people use.
 
 ## How we work with you
 
@@ -117,9 +124,37 @@ Every system you already run feeds one model of your business. Each team reads t
   <img src="assets/ui/directory-light.jpg" alt="The industries directory open on trades and field services: four example workflows, each a short chain of steps ending where a person approves." width="820">
 </picture></p>
 
-## Ecosystem: what we build with
+## Ecosystem: keep what you use, we build and connect the rest
 
-<p align="center"><img src="assets/ui/toolwall.jpg" alt="The tools we build with, as a grid of marks, over a line reading check, decide, act." width="620"></p>
+We set up whichever tools you prefer or already run, and build what is missing around them. Four ways in: **keep** the software you have, **upgrade** when an old tool holds you back, **build or buy** where nothing fits, and **add agents** on top, from templates, with a person approving.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/library-dark.jpg">
+  <img src="assets/ui/library-light.jpg" alt="The library: tool marks in rows, then the whole list by kind of tool. What we build with, AI assistants and coding tools, tills and payments, bookings and industry software, customers and marketing, and tools shared across a business." width="820">
+</picture></p>
+
+Tool names are examples of each kind. Marks are their owners' trademarks, shown only to name the tools, not as endorsements.
+
+### By kind of business
+
+What each kind of business usually runs, with example tools for each need. Whichever assistant or model you prefer sits on top.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/bybusiness-dark.jpg">
+  <img src="assets/ui/bybusiness-light.jpg" alt="Nine cards, one for each kind of business, each listing what it usually runs with example tools." width="820">
+</picture></p>
+
+### Sales and marketing as one line
+
+From first contact to a counted result: find and research, CRM, ads, social channels, landing pages, emails, measure. Agents research, draft and tidy at each stage. A person approves anything that sends or spends.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/line-dark.jpg">
+  <img src="assets/ui/line-light.jpg" alt="Seven numbered stages of the sales and marketing line, each with example tools." width="820">
+</picture></p>
+
+### What we build with
+
 
 | Job | Tools |
 | --- | --- |
@@ -127,13 +162,36 @@ Every system you already run feeds one model of your business. Each team reads t
 | Models | Anthropic API; OpenRouter (one key to many models, with a spending cap) |
 | Workflows | n8n |
 | Traces, scores and cost | Langfuse |
-| Data | Palantir Foundry; your own exports and APIs |
+| Data | Your own exports and APIs |
 | Code and checks | GitHub, GitHub Actions, Python, Node.js, Playwright |
 | Hosting | Cloudflare, DigitalOcean |
 | Alerts | ntfy (phone alerts) |
 | Images and video | Higgsfield, Blender |
 
-We connect to the systems you already run, named by type on our site: CRM, orders, spreadsheets, accounts, bookings.
+We connect to the systems you already run, named by type on our site: CRM, orders, spreadsheets, accounts, bookings. We also work with Palantir Foundry where a business runs it.
+
+## How we run our own business
+
+Before we build one for you, we build it for ourselves. Osgiliath runs its own work the way it builds systems for clients: checked first, reviewed, and approved by a person before anything goes live.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/ownstack-dark.jpg">
+  <img src="assets/ui/ownstack-light.jpg" alt="Osgiliath drawn in the same five layers: where our work is kept (GitHub, Notion, ntfy, DigitalOcean, Cloudflare, Langfuse), our work, the agents and rules (Claude Code, Claude, n8n, OpenRouter, Playwright), the actions the owner approves, and the screens we look at." width="820">
+</picture></p>
+
+| | |
+| --- | --- |
+| **Checked on every change** | Each change starts on its own branch. Types, tests and the build run automatically, and browser tests and screenshots of every page run before review. |
+| **Reviewed separately** | A separate AI reviewer reads each change from scratch before a person looks at it. |
+| **Approved before it goes live** | Nothing is published until a person approves the evidence. Our website is released that way. |
+| **Runs you can replay** | We are building our pipelines to record each run step by step: which agent, model and tool did what, what it cost, and where it waited for a person. |
+
+Four of our own pipelines, step by step, with the point where a person decides marked. Three run today; the fourth is built and tested, and its card says so.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/ownflows-dark.jpg">
+  <img src="assets/ui/ownflows-light.jpg" alt="Four workflows we use, each as a row of steps with the tools it runs on: website changes checked before they go live (GitHub, Playwright, Claude Code, Cloudflare); a message held until a person approves it (n8n, Slack, Gmail; built and tested, not yet switched on); model calls routed, capped and traced (OpenRouter, Langfuse, n8n); scheduled checks that list what needs a person (Claude Code, GitHub)." width="820">
+</picture></p>
 
 ## Ground rules
 
