@@ -1,7 +1,7 @@
-<picture>
+<p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-  <img src="assets/banner-light.png" alt="Osgiliath Intel. Business systems, automation and managed operations. Built inside your business, on your accounts." width="100%">
-</picture>
+  <img src="assets/banner-light.png" alt="Osgiliath Intel. Business systems, automation and managed operations. Built inside your business, on your accounts." width="720">
+</picture></p>
 
 <p align="center">
   <a href="https://osgiliathintel.co.uk"><img alt="Website" src="https://img.shields.io/badge/website-osgiliathintel.co.uk-0b1424"></a>
@@ -21,12 +21,12 @@ Each step is scoped and quoted on its own. We never sell a plan to modernise the
 
 ## How every system is shaped
 
-<picture>
+<p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.png">
-  <img src="assets/flow-light.png" alt="Six layers: your sources, checked data, your rules, decisions (you decide), your screens, approved action (you decide)." width="100%">
-</picture>
+  <img src="assets/flow-light.png" alt="Six layers: your sources, checked data, your rules, decisions (you decide), your screens, approved action (you decide)." width="720">
+</picture></p>
 
-Six layers, left to right. The two marked steps are where a person decides. Work loops back for review, and nothing is automated until its data can be trusted.
+Six layers, in order. The two marked steps are where a person decides. Work loops back for review, and nothing is automated until its data can be trusted.
 
 ## How we work with you
 
@@ -64,12 +64,22 @@ Services by department (marketing, sales, finance, people, technology and more):
 
 Made-up businesses, real shapes. Each step goes to whatever suits it: an automation, fixed rules, an agent on a small or a stronger model, or a person.
 
-| Run | What it shows | Walk-through |
-| --- | --- | --- |
-| A campaign | An idea becomes drafts for each channel, checked for consent and brand, sent only after the owner says yes | [examples](examples/README.md#a-campaign) |
-| Engineering | A GitHub issue becomes a reviewed pull request; a person approves what touches the live system | [examples](examples/README.md#engineering) |
-| Something happens | A health report becomes a watcher's verdict and an alert on a phone | [examples](examples/README.md#something-happens) |
-| Research | One question, several models: a search model with sources, a critic from another lab, a cheap gate, a person | [examples](examples/README.md#research-with-several-models) |
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/models-dark.png">
+  <img src="assets/models-light.png" alt="Each step of a job goes to the model that suits it, through one OpenRouter key with a spending cap. A person signs off, and Langfuse keeps one trace." width="720">
+</picture></p>
+
+| Run | What it shows |
+| --- | --- |
+| [A campaign](examples/README.md#a-campaign) | An idea becomes drafts for each channel, checked for consent and brand, sent only after the owner says yes |
+| [Engineering](examples/README.md#engineering) | A GitHub issue becomes a reviewed pull request; a person approves what touches the live system |
+| [Something happens](examples/README.md#something-happens) | A health report becomes a watcher's verdict and an alert on a phone |
+| [Research](examples/README.md#research-with-several-models) | One question, several models: a search model with sources, a critic from another lab, a cheap check, a person |
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/run-research-dark.png">
+  <img src="assets/run-research-light.png" alt="Research run: find past notes (open-weight embedding model), search the web (search model), draft (stronger model), critique (model from another lab), flag what needs a person, then a person reads the brief." width="720">
+</picture></p>
 
 Follow a pipeline step by step on the site: [osgiliathintel.co.uk/tracing](https://osgiliathintel.co.uk/tracing)
 
