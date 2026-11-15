@@ -1,72 +1,40 @@
 # Example runs
 
-Every business here is made up. The shapes are the ones we set up and run.
-
-Legend: ⚙️ automation · 📏 fixed rules · 🤖 agent (model class shown) · 🧑 a person
+Every business here is made up. The shapes are the ones we set up and run. Each step shows who does it (an automation, fixed rules, an agent or a person), the kind of model if it uses one, and the software it touches.
 
 ## A campaign
 
-A made-up café plans next month's posts.
-
-```mermaid
-flowchart LR
-  A[⚙️ Gather dates, offers, past results<br><i>n8n</i>] --> B[🤖 Draft copy and images per channel<br><i>strong model via OpenRouter · Higgsfield</i>]
-  B --> C[📏 Check consent, opt-outs, brand rules]
-  C --> D{🧑 Owner approves}
-  D --> E[⚙️ Schedule and record results<br><i>n8n</i>]
-```
-
-**The trace keeps:** which model wrote each draft and what it cost, which rules ran, who said yes and what they edited.
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-campaign-dark.png">
+  <img src="../assets/run-campaign-light.png" alt="Campaign run: gather dates, offers and past results (n8n); draft copy and images (stronger model, OpenRouter, Higgsfield); check consent, opt-outs and brand rules; the owner approves; schedule and record results." width="720">
+</picture></p>
 
 ## Engineering
 
-A made-up firm wants a change to its own system.
-
-```mermaid
-flowchart LR
-  A[GitHub issue] --> B[🤖 Lead agent picks a ready issue]
-  B --> C[🤖 Builder agent writes the change,<br>opens a pull request<br><i>Claude Code</i>]
-  C --> D[⚙️ Tests and build<br><i>GitHub Actions</i>]
-  D --> E[🤖 Independent review<br><i>a separate agent</i>]
-  E --> F{🧑 A person approves anything<br>that changes the live system}
-```
-
-**The trace keeps:** the issue, every commit, the checks, the review verdict and the approval.
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-engineering-dark.png">
+  <img src="../assets/run-engineering-light.png" alt="Engineering run: a lead agent picks a ready issue; a builder agent opens a pull request; tests and build run; a separate agent reviews; a person approves anything that changes the live system." width="720">
+</picture></p>
 
 ## Something happens
 
-A scheduled health report comes in from a live system.
-
-```mermaid
-flowchart LR
-  A[⚙️ Collect the health report] --> B[📏 Compare with what is expected]
-  B --> C[🤖 Watcher agent gives a verdict<br><i>small model</i>]
-  C --> D[⚙️ Alert a person's phone<br><i>ntfy</i>]
-  D --> E{🧑 A person decides the fix}
-```
-
-**The trace keeps:** the report, the verdict and its reasons, when the alert went, what was decided.
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-event-dark.png">
+  <img src="../assets/run-event-light.png" alt="Event run: collect the health report; compare with what is expected; a watcher agent gives a verdict on a small model; alert a phone with ntfy; a person decides the fix." width="720">
+</picture></p>
 
 ## Research with several models
 
-One question, each step on the model that suits it, all through one router key with a spending cap.
-
-```mermaid
-flowchart LR
-  Q[A research question] --> A[🤖 Find our past notes<br><i>open-weight embedding model</i>]
-  A --> B[🤖 Search the web, return sources<br><i>search model</i>]
-  B --> W[🤖 Draft the brief<br><i>stronger model</i>]
-  W --> C[🤖 Critique the draft<br><i>model from another lab</i>]
-  C --> D[📏 Cheap check: sources present, question answered]
-  D --> E{🧑 A person reads the brief}
-  subgraph OpenRouter
-    A
-    B
-    W
-    C
-  end
-```
-
-**The trace keeps:** model, tokens and cost per call, the sources returned, the flags the critic raised (Langfuse).
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-research-dark.png">
+  <img src="../assets/run-research-light.png" alt="Research run: find past notes (open-weight embedding model), search the web (search model), draft (stronger model), critique (model from another lab), flag what needs a person, then a person reads the brief." width="720">
+</picture></p>
 
 Open-weight models, such as the embedding model in the first step, are the kind published on Hugging Face. We reach ours through the router; we do not host or train models.
+
+## One key, several models
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/models-dark.png">
+  <img src="../assets/models-light.png" alt="Each step of a job goes to the model that suits it, through one OpenRouter key with a spending cap. A person signs off, and Langfuse keeps one trace." width="720">
+</picture></p>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 40 835 950">
+  <!-- Osgiliath Intel mark: traced from the operator's logo (28 Sep 2026). Brand colours sampled from it and fixed here on purpose. -->
+  <polygon fill="#1a94d9" points="50,255 295,430 295,625 50,740"/>
+  <polygon fill="#0a67a5" points="50,740 295,625 462,712 250,830"/>
+  <polygon fill="#178dd1" points="598,270 845,408 548,552 548,366 486,333"/>
+  <polygon fill="#21a6e9" points="845,408 845,780 485,975 250,830 462,712 548,666 548,552"/>
+  <polygon fill="#23a4ea" points="50,255 430,55 705,208 295,430"/>
+</svg>
