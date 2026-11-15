@@ -1,40 +1,48 @@
 # Example runs
 
-Every business here is made up. The shapes are the ones we set up and run. Each step shows who does it (an automation, fixed rules, an agent or a person), the kind of model if it uses one, and the software it touches.
+Every business here is made up. These are pictures of the run screen from our own site: each step shows who does it, the kind of model if it uses one, the software it touches and what the trace keeps.
 
 ## A campaign
 
+A made-up café plans next month’s campaign. Copy and images are drafted, and nothing is scheduled until the owner says yes.
+
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-campaign-dark.png">
-  <img src="../assets/run-campaign-light.png" alt="Campaign run: gather dates, offers and past results (n8n); draft copy and images (stronger model, OpenRouter, Higgsfield); check consent, opt-outs and brand rules; the owner approves; schedule and record results." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/ui/screen-campaign-dark.jpg">
+  <img src="../assets/ui/screen-campaign-light.jpg" alt="The run screen playing the made-up a campaign run, step by step, with its trace." width="820">
 </picture></p>
 
 ## Engineering
 
+An issue becomes a reviewed pull request. A person approves anything that changes the live system.
+
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-engineering-dark.png">
-  <img src="../assets/run-engineering-light.png" alt="Engineering run: a lead agent picks a ready issue; a builder agent opens a pull request; tests and build run; a separate agent reviews; a person approves anything that changes the live system." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/ui/screen-engineering-dark.jpg">
+  <img src="../assets/ui/screen-engineering-light.jpg" alt="The run screen playing the made-up engineering run, step by step, with its trace." width="820">
 </picture></p>
 
 ## Something happens
 
+A scheduled health report comes in. A watcher gives a verdict, a phone is alerted, and a person decides the fix.
+
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-event-dark.png">
-  <img src="../assets/run-event-light.png" alt="Event run: collect the health report; compare with what is expected; a watcher agent gives a verdict on a small model; alert a phone with ntfy; a person decides the fix." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/ui/screen-event-dark.jpg">
+  <img src="../assets/ui/screen-event-light.jpg" alt="The run screen playing the made-up something happens run, step by step, with its trace." width="820">
 </picture></p>
 
 ## Research with several models
 
+One question, several models in turn through one key with a spending cap, and a person reads the brief before it is used.
+
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/run-research-dark.png">
-  <img src="../assets/run-research-light.png" alt="Research run: find past notes (open-weight embedding model), search the web (search model), draft (stronger model), critique (model from another lab), flag what needs a person, then a person reads the brief." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/ui/screen-research-dark.jpg">
+  <img src="../assets/ui/screen-research-light.jpg" alt="The run screen playing the made-up research with several models run, step by step, with its trace." width="820">
 </picture></p>
 
-Open-weight models, such as the embedding model in the first step, are the kind published on Hugging Face. We reach ours through the router; we do not host or train models.
+Open-weight models, such as the embedding model in the first research step, are the kind published on Hugging Face. We reach ours through the router; we do not host or train models.
 
-## One key, several models
+## A longer run, with its trace
 
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/models-dark.png">
-  <img src="../assets/models-light.png" alt="Each step of a job goes to the model that suits it, through one OpenRouter key with a spending cap. A person signs off, and Langfuse keeps one trace." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/ui/tracerun-dark.jpg">
+  <img src="../assets/ui/tracerun-light.jpg" alt="A made-up sales enquiry followed step by step: who does each step, what it runs inside, how it reaches the data, which model, and what the trace keeps." width="820">
 </picture></p>
