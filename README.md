@@ -60,30 +60,64 @@ Services by department (marketing, sales, finance, people, technology and more):
 - **The estate kit.** Your accounts, cloud, AI models and monitoring, set up the same way every time, in your name.
 - **The tracing and cost layer.** Every run, model call and decision recorded, with what it cost.
 
-## Example runs
+## See it running
 
-Made-up businesses, real shapes. Each step goes to whatever suits it: an automation, fixed rules, an agent on a small or a stronger model, or a person.
-
-<p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/models-dark.png">
-  <img src="assets/models-light.png" alt="Each step of a job goes to the model that suits it, through one OpenRouter key with a spending cap. A person signs off, and Langfuse keeps one trace." width="720">
-</picture></p>
-
-| Run | What it shows |
-| --- | --- |
-| [A campaign](examples/README.md#a-campaign) | An idea becomes drafts for each channel, checked for consent and brand, sent only after the owner says yes |
-| [Engineering](examples/README.md#engineering) | A GitHub issue becomes a reviewed pull request; a person approves what touches the live system |
-| [Something happens](examples/README.md#something-happens) | A health report becomes a watcher's verdict and an alert on a phone |
-| [Research](examples/README.md#research-with-several-models) | One question, several models: a search model with sources, a critic from another lab, a cheap check, a person |
+One department's run, played on the owner's screen. Each step goes to whatever suits it: an automation, fixed rules, an agent on a small or a stronger model, or a person. It stops for a person's yes, and every step lands on the trace.
 
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/run-research-dark.png">
-  <img src="assets/run-research-light.png" alt="Research run: find past notes (open-weight embedding model), search the web (search model), draft (stronger model), critique (model from another lab), flag what needs a person, then a person reads the brief." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/screen-research-dark.jpg">
+  <img src="assets/ui/screen-research-light.jpg" alt="The owner screen playing a made-up research run: six steps, each with its software, its kind of model and what the trace keeps, ending with a person reading the brief." width="820">
 </picture></p>
 
-Follow a pipeline step by step on the site: [osgiliathintel.co.uk/tracing](https://osgiliathintel.co.uk/tracing)
+<sub>Made-up data. More runs (a campaign, engineering, something happening in the system): [examples](examples/README.md).</sub>
+
+## Several models, one task
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/severalmodels-dark.jpg">
+  <img src="assets/ui/severalmodels-light.jpg" alt="A made-up firm answers a tender: read, sort, draft and check each go to a different class of model through one OpenRouter key with a spending cap; a person approves; every call lands in one trace." width="820">
+</picture></p>
+
+## Agents on a harness, around the software a team already runs
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/engine-dark.jpg">
+  <img src="assets/ui/engine-light.jpg" alt="A made-up sales team mapped: lead sources joined to the CRM, six agents reading and writing through MCP and API, the harness behind them (workflows, model per step, run log, limits, approvals, keys), and the sales team approving every send." width="820">
+</picture></p>
+
+<sub>Illustrative, on a made-up team. Tool names are examples: we connect what a team already uses, on its own accounts.</sub>
+
+## Your business, mapped
+
+Every system you already run feeds one model of your business. Each team reads the same records.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/bizmap-dark.jpg">
+  <img src="assets/ui/bizmap-light.jpg" alt="The business map: your software on the left, what your business knows in the middle (customer, booking, order, invoice, shift and more), and the departments that use it on the right, with the lines for Customer lit." width="820">
+</picture></p>
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/connect-dark.jpg">
+  <img src="assets/ui/connect-light.jpg" alt="What agents connect to: kinds of business data, the departments that read them, the workflows each department runs, and the tools those workflows use, with Sales and enquiries picked." width="820">
+</picture></p>
+
+## Department by department
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/departments-dark.jpg">
+  <img src="assets/ui/departments-light.jpg" alt="Every department of a made-up business with the jobs that run there each week, marked as runs on its own, waits on a person, or flagged for a look, with where the data comes from and what it is built on." width="820">
+</picture></p>
+
+## Workflows by kind of business
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/directory-dark.jpg">
+  <img src="assets/ui/directory-light.jpg" alt="The industries directory open on trades and field services: four example workflows, each a short chain of steps ending where a person approves." width="820">
+</picture></p>
 
 ## Ecosystem: what we build with
+
+<p align="center"><img src="assets/ui/toolwall.jpg" alt="The tools we build with, as a grid of marks, over a line reading check, decide, act." width="620"></p>
 
 | Job | Tools |
 | --- | --- |
