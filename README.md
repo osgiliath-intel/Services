@@ -124,9 +124,37 @@ Every system you already run feeds one model of your business. Each team reads t
   <img src="assets/ui/directory-light.jpg" alt="The industries directory open on trades and field services: four example workflows, each a short chain of steps ending where a person approves." width="820">
 </picture></p>
 
-## Ecosystem: what we build with
+## Ecosystem: keep what you use, we build and connect the rest
 
-<p align="center"><img src="assets/ui/toolwall.jpg" alt="The tools we build with, as a grid of marks, over a line reading check, decide, act." width="620"></p>
+We set up whichever tools you prefer or already run, and build what is missing around them. Four ways in: **keep** the software you have, **upgrade** when an old tool holds you back, **build or buy** where nothing fits, and **add agents** on top, from templates, with a person approving.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/library-dark.jpg">
+  <img src="assets/ui/library-light.jpg" alt="The library: tool marks in rows, then the whole list by kind of tool. What we build with, AI assistants and coding tools, tills and payments, bookings and industry software, customers and marketing, and tools shared across a business." width="820">
+</picture></p>
+
+Tool names are examples of each kind. Marks are their owners' trademarks, shown only to name the tools, not as endorsements.
+
+### By kind of business
+
+What each kind of business usually runs, with example tools for each need. Whichever assistant or model you prefer sits on top.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/bybusiness-dark.jpg">
+  <img src="assets/ui/bybusiness-light.jpg" alt="Nine cards, one for each kind of business, each listing what it usually runs with example tools." width="820">
+</picture></p>
+
+### Sales and marketing as one line
+
+From first contact to a counted result: find and research, CRM, ads, social channels, landing pages, emails, measure. Agents research, draft and tidy at each stage. A person approves anything that sends or spends.
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui/line-dark.jpg">
+  <img src="assets/ui/line-light.jpg" alt="Seven numbered stages of the sales and marketing line, each with example tools." width="820">
+</picture></p>
+
+### What we build with
+
 
 | Job | Tools |
 | --- | --- |
